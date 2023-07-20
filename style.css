@@ -293,7 +293,7 @@ small {
 
 /* For small screen */
 
-@media only screen and (max-width: 600px) {
+@media screen and (max-width: 600px) {
     .logo {
         width: 100px;
     }
@@ -307,9 +307,10 @@ small {
         position: unset;
         transform: none;
         padding-top: 60px;
+        margin-top: -40%;
     }
     .header-content h1 {
-        font-size: 40px;
+        font-size: 30px;
         margin-top: 80px;
     }
     .email-signup button {
